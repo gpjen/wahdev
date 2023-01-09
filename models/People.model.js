@@ -3,11 +3,11 @@ module.exports = (mongoose) => {
     {
       name: String,
       email: String,
-      jenis_kemlamin: String,
+      j_kelamin: String,
       umur: Number,
     },
     {
-      timestamp: true,
+      timestamps: true,
     }
   );
 
